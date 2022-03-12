@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: darkcyan;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    margin: 8px 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Bahnschrift, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+input {
+    margin: 8px;
+    padding: 6px;
+    outline: none;
+}
+button {
+    padding: 6px;
+    cursor: pointer;
+}
+
+.msg {
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
+}
